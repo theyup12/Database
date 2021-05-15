@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>CS332 Project</title>
+		<style>
+		table, td {
+  		border: 1px solid black;}
+		</style>
+	</head>
+    <body>
+        <h1>Welcome to University Database</h1>
+        <hr>
+        <h2>Look-up Section Course</h2>
+        <form action ="prof_a.php" method = "post">
+            <p>Professor SSN: <input type= "text" name="SSN" />
+            <input type = "submit" name = "sumbit" value ="submit" /></p>
+        </form>
+        <hr>
+        <h2>Look-up all the grade in particular Course </h2>
+        <form action ="prof_b.php" method = "post">
+            <p>Course Number: <input type= "text" name="C_no" />
+            <p>Section Number: <input type= "text" name="S_no" /></p>
+            <input type = "submit" name = "sumbit" value ="submit" />
+        </form>
+        <hr>
+        <h2>Look-up Section Course</h2>
+        <p>
+        <front color = red>Input the Course ID:</front><br>
+        <form action ="student_a.php" method = "post">
+            <p>Course Number: <input type= "text" name="Cno" />
+            <input type = "submit" name = "sumbit" value ="submit" /></p>
+        </form>
+        <hr>
+        <h2>Look-up Student Enrollments</h2>
+        <form action ="student_b.php" method = "post">
+            <p>Student CWID: <input type= "text" name="CWID" />
+            <input type = "submit" name = "sumbit" value ="submit" /></p>
+        </form>
+
+    </body>
+</html>
