@@ -1,6 +1,7 @@
 # Create a online query to search for University Database using sql and php
 The project will use MySQL database and PHP to build a web database application. 
 
+### DataBase Descriptions: 
 1. The database keeps information of each professor, including the social
 security number, name, address, telephone number, sex, title, salary, and
 college degrees. The address includes street address, city, state, and zip
